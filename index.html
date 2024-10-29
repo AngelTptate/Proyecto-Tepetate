@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Project Training_ Portafolio">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript,pugjs,sass,php,laravel.mysql">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/my-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Pattaya" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg my-nav">
+      <div class="container"><a class="navbar-brand" href="#">Portafolio TP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-scroll="about-us">Acerca de</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-scroll="service">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-scroll="portfolio">Portafolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-scroll="clint-say">Testimonios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-scroll="contact-us">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="slider">
+      <div class="carousel slide" id="main-slider" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="overlay"></div>
+          <div class="carousel-item carousel-one active"></div>
+          <div class="carousel-item carousel-two"></div>
+          <div class="carousel-item carousel-three"></div>
+        </div>
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#main-slider" data-slide-to="0"></li>
+          <li data-target="#main-slider" data-slide-to="1"></li>
+          <li data-target="#main-slider" data-slide-to="2"> </li>
+        </ol>
+      </div>
+    </div>
+    <div class="my-typewrap"> 
+      <div class="container">
+        <div class="row"> 
+          <div class="carousel-caption d-block text-center my-icon">
+            <ul class="list-unstyled">
+              <li> <a href="https://www.facebook.com/angel.tepe.7/"><i class="fab fa-facebook-f"></i></a></li>
+              <li> <a href="https://x.com/ElAngelTepe?t=vaKI7MkHhZE7DDyms992bg&s=09"> <i class="fab fa-twitter"></i></a></li>
+              <li> <a href="https://www.instagram.com/aangel_tepe/"><i class="fab fa-instagram"></i></a></li>
+              <li> <a href="https://github.com/AngelTptate"><i class="fab fa-github"> </i></a></li>
+            </ul>
+            <div class="type-wrap text-capitalize"><span id="typed"></span></div>
+            <p class="text-capitalize">
+              Mi nombre es Angel Tepetate soy ingeniero en software especializado en crear apps mobiles 
+              y páginas web profesionales.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="about-us">
+      <div class="about">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-6 about-img d-sm-none d-md-block"><img src="img/about.png"></div>
+            <div class="col-6 about-me">
+              <div class="bord-about box arrow-box">
+                <h3 class="text-uppercase text-sm-righ">Acerca de</h3>
+              </div>
+              <p class="text-capitalize">
+                Soy un desarrollador de software especializado,
+                elaboro sistemas para cualquier empresa de manera creativa e interactiva
+                para facilitar el trabajo a los usuarios, tambien colaboro con otros equipos de trabajo, 
+                me gusta aportar ideas y darle solución a los problemas Trabajo lenguajes como 
+                php, html, css, python, javascrip, c++, c#, base de datos como oracle, mysql 
+                y tambien frameworks como laravel, bobstrap y laragon. 
+              </p>
+              <div class="my-info">
+                <div class="info-span1"><span>Name</span>
+                  <p>Angel Tepetate</p>
+                </div>
+                <div class="info-span2"> <span>Email</span>
+                  <p>angeltepe3@gmail.com</p>
+                </div>
+                <div class="info-span3"> <span>Phone</span>
+                  <p>xxxx-xxxx-xx</p>
+                </div>
+                <div class="info-span4"><span>Instagram</span>
+                  <p>@aangel_tepe</p>
+                </div>
+              </div>
+              <div class="col-6 boutton-about text-center">
+                <button class="bot" type="button">
+                  <a href="#" data-scroll="service">Servicios</a>
+                </button>
+                <button class="bot" type="button">Contáctame
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="block" id="service">
+      <div class="services text-center">
+        <div class="container">
+          <h2 class="text-uppercase">otros servicios</h2>
+          <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-4 serv-groub1">
+              <div class="card upper-card"><span class="b-one"> </span><span class="b-two"></span><span class="b-three"> </span><span class="b-four"></span>
+                <div class="icon"><i class="rounded-circle fa fa-mobile-alt"></i></div>
+                <div class="card-body">
+                  <h3 class="special-heading text-uppercase">Diseño de app</h3>
+                  <p class="serv-prag">
+                  proyectos de app mobiles, Primeramente Analizo los requerimientos del cliente en seguida, 
+                  el problema a solucionar, el desarrollo y estadisticas de encuestas a los futuros usuarios 
+                  del sistema para hacer un sistema entretenido y que cumpla con las expectativas esperadas.
+                 
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 serv-groub1">
+              <div class="card upper-card"><span class="b-one"> </span><span class="b-two"></span><span class="b-three"> </span><span class="b-four"></span>
+                <div class="icon"><i class="rounded-circle fab fa-apple"></i></div>
+                <div class="card-body">
+                  <h3 class="special-heading text-uppercase">Diseños de logos</h3>
+                  <p class="serv-prag">
+                    Diseños de logos personalizadas, podemos crear un logo con todos los elementos 
+                    que necesites en el, asi como frases, imagenes u objetos de fantasía.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 serv-groub2">
+              <div class="card upper-card"><span class="b-one"> </span><span class="b-two"></span><span class="b-three"> </span><span class="b-four"></span>
+                <div class="icon"><i class="rounded-circle fa fa-database"></i></div>
+                <div class="card-body">
+                  <h3 class="special-heading text-uppercase">Diseño web</h3>
+                  <p class="serv-prag">
+                    Realizo diseños y planteo ideas al desarrollo de un sitio web, 
+                    siempre tomando al cuenta al cliente, brindamos atención de calidad 
+                    y el empeño 100% enfocado.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 serv-groub2">
+              <div class="card upper-card"><span class="b-one"> </span><span class="b-two"></span><span class="b-three"> </span><span class="b-four"></span>
+                <div class="icon"><i class="rounded-circle fa fa-paint-brush"></i></div>
+                <div class="card-body">
+                  <h3 class="special-heading text-uppercase">Diseño gráfico</h3>
+                  <p class="serv-prag">
+                    Gráficas, de acuedo a los datos que nos brinde el usuario de diferentes modelos 
+                    y diseños para que el cliente pueda tener varias opciones a escojer 
+                    de acuerdo a gustos de los usuarios.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 serv-groub2">
+              <div class="card upper-card"><span class="b-one"> </span><span class="b-two"></span><span class="b-three"> </span><span class="b-four"></span>
+                <div class="icon"><i class="rounded-circle fa fa-code"></i></div>
+                <div class="card-body">
+                  <h3 class="special-heading text-uppercase">Programación</h3>
+                  <p class="serv-prag">
+                    Ayuda a desarrolladores para trabajar de manera colectiva 
+                    para el desarrollo de proyectos grandes y con eso lograr un proyecto de calidad en la menor cantidad
+                    de tiempo de forma colaborativa.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="lastnews sync-link">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 last-prag">
+            <h4></h4>
+            <p class="text-capitalize">
+            </p>
+          </div>
+          <div class="col-md-6 last-form">   
+            <form>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio">
+      <div class="portfolio text-center">
+        <div class="container">
+          <h2 class="text-uppercase">Mi portafolio</h2>
+          <ul class="shuffle list-unstyled text-capitalize row">
+            <li class="active filter col-md" data-filter="all">Todos</li>
+            <li class="filter col-md" data-filter=".logo">logos</li>
+            <li class="filter col-md" data-filter=".websites">Sitio web</li>
+            <li class="filter col-md" data-filter=".graphic">Gráficas</li>
+            <li class="filter col-md" data-filter=".photography">Fotografías</li>
+            <li class="filter col-md" data-filter=".video">video</li>
+          </ul>
+        </div>
+        <div class="shuffel-imges" id="shuffel-container">
+          <div class="row">
+            <div class="col-md imge-hover">
+              <div class="img-text">
+                <h5>logo</h5><a href="#">
+                  <button class="bot">leer más
+                    <div class="inside">leer más</div>
+                  </button></a>
+              </div>
+              <div class="my-imge">       <img class="mix logo" src="img/portfolio-1.jpg" alt=""></div>
+            </div>
+            <div class="col-md imge-hover"> 
+              <div class="img-text">
+                <h5>Sitios Web</h5><a href="#">
+                  <button class="bot">leer más
+                    <div class="inside">leer más</div>
+                  </button></a>
+              </div>
+              <div class="my-imge">       <img class="mix websites" src="img/portfolio-2.jpg" alt=""></div>
+            </div>
+            <div class="col-md imge-hover">   
+              <div class="img-text">
+                <h5>fotografías</h5><a href="#">
+                  <button class="bot">leer más
+                    <div class="inside">leer más</div>
+                  </button></a>
+              </div>
+              <div class="my-imge">       <img class="mix photography" src="img/portfolio-3.jpg" alt=""></div>
+            </div>
+            <div class="col-md imge-hover">   
+              <div class="img-text">
+                <h5>Graficas</h5><a href="#">
+                  <button class="bot">leer más
+                    <div class="inside">leer más</div>
+                  </button></a>
+              </div>
+              <div class="my-imge">       <img class="mix graphicy" src="img/portfolio-4.jpg" alt=""></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md imge-hover">
+              <div class="img-text">
+                <h5>Fotografías</h5><a href="#">
+                  <button class="bot">leer más
+                    <div class="inside">leer más</div>
+                  </button></a>
+              </div>
+              <div class="my-imge">       <img class="mix photography" src="img/portfolio-4.jpg" alt=""></div>
+            </div>
+            <div class="col-md imge-hover"> 
+              <div class="img-text">
+                <h5>Gráficas</h5><a href="#">
+                  <button class="bot">leer más
+                    <div class="inside">leer más</div>
+                  </button></a>
+              </div>
+              <div class="my-imge">       <img class="mix graphic" src="img/portfolio-1.jpg" alt=""></div>
+            </div>
+            <div class="col-md imge-hover">   
+              <div class="img-text">
+                <h5>video</h5><a href="#">
+                  <button class="bot">leer más
+                    <div class="inside">leer más</div>
+                  </button></a>
+              </div>
+              <div class="my-imge">       <img class="mix video" src="img/portfolio-2.jpg" alt=""></div>
+            </div>
+            <div class="col-md imge-hover">   
+              <div class="img-text">
+                <h5>logo</h5><a href="#">
+                  <button class="bot">leer más
+                    <div class="inside">leer más</div>
+                  </button></a>
+              </div>
+              <div class="my-imge">       <img class="mix logo" src="img/portfolio-3.jpg" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="clint-say">
+      <div class="testimonials text-center col-md">
+        <div class="overlay"></div>
+        <div class="container">
+          <h2 class="text-uppercase">Nuestros clientes</h2>
+          <div class="carousel slide" id="testimonials" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="carousel-caption testmon-border d-block"><img src="img/about.png" alt="">
+                  <div class="testmon-border"><span class="d-none d-sm-block one"> </span><span class="d-none d-sm-block two"></span><span class="d-none d-sm-block three"> </span><span class="d-none d-sm-block four"></span><span class="d-none d-sm-block five"></span>
+                    <h4 class="text-capitalize">alex Marin</h4>
+                    <p>Uso Personal</p>
+                    <q>
+                      Gracias por el sistema web, me ha sido muy util para controlar mis ventas y poder llevar una organización en mis productos.</q>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-caption d-block"><img src="img/about.png" alt="">
+                  <div class="testmon-border"><span class="d-none d-sm-block one"> </span><span class="d-none d-sm-block two"></span><span class="d-none d-sm-block three"> </span><span class="d-none d-sm-block four"></span><span class="d-none d-sm-block five"> </span>
+                    <h4 class="text-capitalize">Santiago Arteaga</h4>
+                    <p>Sistema de trabajo</p>
+                    <q>
+                      Me parece muy interesante como puede resolverme un sistema muy interactivo y crativo en poco tiempo, gracias por la app he podido mantener un control de calidad con mis trabajadores.</q>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-caption d-block"><img src="img/about.png" alt="">
+                  <div class="testmon-border"><span class="d-none d-sm-block one"> </span><span class="d-none d-sm-block two"></span><span class="d-none d-sm-block three"> </span><span class="d-none d-sm-block four"></span><span class="d-none d-sm-block five"></span>
+                    <h4 class="text-capitalize">Ali Espinoza</h4>
+                    <p>Negocio de trabajo</p>
+                    <q>
+                      Es muy buen programador, trabaja con tiempo y calidad, ah pesar de ser un proyecto en equipo sabe trabajar muy bien y logra entender fácilmente el problema a solucionar.</q>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ol class="carousel-indicators">
+              <li class="active" data-target="#testimonials" data-slide-to="0"></li>
+              <li data-target="#testimonials" data-slide-to="1"></li>
+              <li data-target="#testimonials" data-slide-to="2"> </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact-us">
+      <div class="contact text-center">
+        <div class="container">
+          <h2 class="text-uppercase">contáctame</h2>
+          <div class="row">
+            <div class="col-sm-6 col-md-4 cont-box">
+              <div class="card upper-card"><span class="b-one"> </span><span class="b-two"></span><span class="b-three"> </span><span class="b-four"></span>
+                <div class="card-body">
+                  <h3></h3><i class="fas fa-map-marker-alt">   Calle</i>
+                  <p>
+                    Av. Belen <br/>Santiago de quéretaro, Quéretaro</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 cont-box">
+              <div class="card upper-card"><span class="b-one"> </span><span class="b-two"></span><span class="b-three"> </span><span class="b-four"></span>
+                <div class="card-body">
+                  <h3></h3><i class="fas fa-envelope">   E-mail</i>
+                  <p>
+                    angeltepe3@gmail.com </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 cont-box">
+              <div class="card upper-card"><span class="b-one"> </span><span class="b-two"></span><span class="b-three"> </span><span class="b-four"></span>
+                <div class="card-body">
+                  <h3> </h3><i class="fas fa-phone">   Teléfono</i>
+                  <p>
+                    + xxxx-xxxx-xx <br/>+ xxxx-xxxx-xx</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cont-form">                 
+        <div class="container">                      
+          <form>
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <div class="form-group">
+                  <input class="form-control input-lg" type="text" placeholder="Nombre(s)">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">            
+                <div class="form-group">
+                  <input class="form-control input-lg" type="email" placeholder="E-Mail">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">            
+                <div class="form-group">
+                  <input class="form-control input-lg" type="text" placeholder="Telefono">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6">           
+                <div class="form-group">
+                  <input class="form-control input-lg" type="text" placeholder="descripción">
+                </div>
+              </div>
+              <div class="col-sm col-md">            
+                <div class="form-group">
+                  <textarea class="form-control input-lg" type="text" placeholder="Mensaje"></textarea>
+                </div>
+              </div>
+            </div>
+          </form>
+          <div class="cont-butn text-center">         
+            <button class="bot" type="submit">Enviar mensaje
+              <div class="inside">Enviar mensaje                                           </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="foter text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="foot-icon"> 
+            <ul class="list-unstyled row">
+              <li> <a href="https://www.facebook.com/angel.tepe.7/"><i class="fab fa-facebook-f"></i></a></li>
+              <li> <a href="https://x.com/ElAngelTepe?t=vaKI7MkHhZE7DDyms992bg&s=09"> <i class="fab fa-twitter"></i></a></li>
+              <li> <a href="https://www.instagram.com/aangel_tepe/"><i class="fab fa-instagram"></i></a></li>
+              <li> <a href="https://github.com/AngelTptate"><i class="fab fa-github"></i></a></li>
+            </ul>
+            <div class="copyright">
+                 Copyright &copy; 2018 UIXREX, All Rights Reserved.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="arrow-up d-none d-sm-none d-md-block"><a class="scroll-top" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mixitup.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
